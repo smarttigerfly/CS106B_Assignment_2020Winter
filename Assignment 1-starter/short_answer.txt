@@ -1,0 +1,69 @@
+Before submitting this file, make sure that there are no more TODO
+placeholders remaining in the file (and remove this comment too).
+
+Perfect Numbers
+---------------
+
+Q1. How many numbers does the program search through? How many perfect numbers does it find? What are these perfect numbers?
+A1: 40000；4；6、28、496、8128.
+
+Q2. Record the timing results for `findPerfects` into a table.
+A2: 
+Search Size: 20000  Runtime: TODO
+Search Size: 40000  Runtime: TODO
+Search Size: 80000  Runtime: TODO
+Search Size: 160000 Runtime: TODO
+Search Size: 320000 Runtime: TODO
+Search Size: 640000 Runtime: TODO
+
+
+    Line 122 Time findPerfects(20000) (size =  20000) completed in    0.907 secs
+    Line 123 Time findPerfects(40000) (size =  40000) completed in    2.984 secs
+    Line 124 Time findPerfects(80000) (size =  80000) completed in     11.4 secs
+    Line 125 Time findPerfects(160000) (size = 160000) completed in   44.822 secs
+    Line 126 Time findPerfects(320000) (size = 320000) completed in  178.494 secs
+    Line 127 Time findPerfects(640000) (size = 640000) completed in   712.26 secs
+
+Q3. Does it take the same amount of effort to compute `isPerfect` on the number 10 as it does on the number 1000? Why or why not? Does it take the same amount of work for `findPerfects` to search the range of numbers from 1-1000 as it does to search the numbers from 1000-2000? Why or why not?
+A3: TODO
+
+Q4. Extrapolate from the data you gathered and make a prediction: how long will it take `findPerfects` to reach the fifth perfect number?
+A4: TODO
+
+Q5. Do any of the tests still pass even with this broken function? Why or why not?
+A5: TODO
+
+Q6. Can the test framework detect that the test case is "bogus", in the sense that the premise of the test case itself is off-base?
+A6: TODO
+
+Q7. Describe the testing strategy your used for your test cases to confirm `smarterSum` is working correctly.
+A7: TODO
+
+Q8. Record your timing results for `findPerfectsSmarter` into a table.
+A8: 
+Search Size: 20000  Runtime: TODO
+Search Size: 40000  Runtime: TODO
+Search Size: 80000  Runtime: TODO
+Search Size: 160000 Runtime: TODO
+Search Size: 320000 Runtime: TODO
+Search Size: 640000 Runtime: TODO
+
+Q9. Make a prediction: how long will `findPerfectsSmarter` take to reach the fifth perfect number?
+A9: TODO
+
+Q10. Explain how you chose your specific test cases and why they lead you to be confident `findNthPerfectEuclid` is working correctly.
+A10: TODO
+
+
+Soundex
+-------
+
+Q11. What is the Soundex code for "Angelou"? What is the code for your own surname?
+A11: TODO
+
+Q12. Before writing any code, brainstorm your plan of attack and sketch how you might decompose the work into smaller tasks. Briefly describe your decomposition strategy.
+A12: TODO
+
+Q13. Think about one or more examples of a class of names that the Soundex system might not work well for. Explain what this class of names is and why the system might incorrectly group them or mis-categorize one of the names.
+A13: TODO
+
